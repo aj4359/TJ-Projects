@@ -1,0 +1,103 @@
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f3ef; /* Light background */
+    color: #333; /* Global text color (dark gray) */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Recipe Card Container */
+.recipe-card {
+    background-color: #fff; /* White background for the card */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    width: 100%; /* Full width */
+    max-width: 800px; /* Maximum width to control large screens */
+    padding: 20px; /* Padding inside the card */
+    margin: 20px; /* Margin around the card */
+}
+
+/* Recipe Image */
+.recipe-image img {
+    width: 100%; /* Make sure the image takes up 100% width of the container */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px 10px 0 0; /* Rounded top corners */
+    display: block; /* Remove extra space around the image */
+}
+
+/* Recipe Title and Description) */
+.recipe-header h1 {
+    font-family: 'Helvetica', sans-serif; /* Font for the title */
+    font-size: 32px; /* Large title */
+    color: #b33030; /* Dark red title color */
+    margin: 20px 0 10px;
+}
+
+.recipe-header p {
+    font-size: 16px;
+    color: #666; /* Lighter gray for description text */
+    line-height: 1.6; /* Better spacing between lines */
+}
+
+/* Preparation Time  */
+.recipe-prep-time h3 {
+    font-size: 18px;
+    color: #e67373; /* Light reddish color for subheading */
+}
+
+.recipe-prep-time ul {
+    color: #333; /* Dark gray for text */
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Ingredients */
+.recipe-ingredients h3 {
+    font-size: 22px;
+    color: #a44; /* Reddish color for section title */
+}
+
+.recipe-ingredients ul {
+    color: #444; /* Dark gray for ingredients text */
+    padding-left: 20px;
+}
+
+.recipe-ingredients li {
+    margin-bottom: 5px; /* Space between each ingredient */
+}
+
+/* Instructions */
+.recipe-instructions h3 {
+    font-size: 22px;
+    color: #444; /* Darker gray */
+    margin-bottom: 10px;
+}
+
+.recipe-instructions ol {
+    padding-left: 20px;
+}
+
+.recipe-instructions li {
+    color: #333; /* Darker gray for instruction text */
+    margin-bottom: 10px;
+}
+
+/* Nutrition */
+.recipe-nutrition h3 {
+    font-size: 22px;
+    color: #444; /* Darker gray */
+}
+
+.recipe-nutrition ul {
+    list-style-type: none; /* No bullet points */
+    padding-left: 0;
+}
+
+.recipe-nutrition li {
+    color: #333; /* Dark gray for nutrition facts */
+    margin-bottom: 5px;
+}
