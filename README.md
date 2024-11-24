@@ -1,2 +1,4 @@
-# TJ-Projects
-Anthony Johnson's Project's
+# Consilio-AI App
+
+This is the AI-powered financial assistant app.
+
